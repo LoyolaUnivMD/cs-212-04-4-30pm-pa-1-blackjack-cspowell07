@@ -1,0 +1,21 @@
+Begin the game.
+Initialize a deck of cards containing 52 unique cards.
+Shuffle the deck randomly.
+Deal two cards to the player and two cards to the dealer from the top of the deck, alternating between player and dealer.
+Display the player's two cards, showing one card and hiding the other.
+Display the dealer's two cards, showing only one card and hiding the other.
+Calculate the total value of the player's hand.
+Allow the player to choose whether to "hit" (take another card) or "stay" (end their turn).
+If the player chooses to hit, deal another card to the player and recalculate the total value of their hand.
+If the total value of the player's hand exceeds 21, they bust and lose the game.
+Repeat steps 8-10 until the player chooses to stay or busts.
+If the player chooses to stay, reveal the dealer's hidden card and calculate the total value of the dealer's hand.
+If the total value of the dealer's hand is less than 17, the dealer must hit until their hand total is 17 or higher.
+If the total value of the dealer's hand exceeds 21, the dealer busts and the player wins.
+Compare the total value of the player's hand to the total value of the dealer's hand:
+If the player's hand total is higher than the dealer's hand total and does not exceed 21, the player wins.
+If the dealer's hand total is higher than the player's hand total and does not exceed 21, the dealer wins.
+If both the player and dealer have the same hand total, it's a tie.
+Display the outcome of the game (player win, dealer win, or tie).
+Ask the player if they want to play again.
+If the player chooses to play again, repeat the game from step 3. Otherwise, end the game.
